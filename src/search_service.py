@@ -1589,22 +1589,22 @@ class SearchService:
                 },
                 {
                     "name": "market_analysis",
-                    "query": f"{stock_name} analyst rating target price report",
+                    "query": f"{stock_name} {stock_code} analyst rating target price report",
                     "desc": "机构分析",
                 },
                 {
                     "name": "risk_check",
-                    "query": f"{stock_name} risk insider selling lawsuit litigation",
+                    "query": f"{stock_name} {stock_code} risk insider selling lawsuit litigation",
                     "desc": "风险排查",
                 },
                 {
                     "name": "earnings",
-                    "query": f"{stock_name} earnings revenue profit growth forecast",
+                    "query": f"{stock_name} {stock_code} earnings revenue profit growth forecast",
                     "desc": "业绩预期",
                 },
                 {
                     "name": "industry",
-                    "query": f"{stock_name} industry competitors market share outlook",
+                    "query": f"{stock_name} {stock_code} industry competitors market share outlook",
                     "desc": "行业分析",
                 },
             ]
@@ -1617,22 +1617,22 @@ class SearchService:
                 },
                 {
                     "name": "market_analysis",
-                    "query": f"{stock_name} 研报 目标价 评级 深度分析",
+                    "query": f"{stock_name} {stock_code} 研报 目标价 评级 深度分析",
                     "desc": "机构分析",
                 },
                 {
                     "name": "risk_check",
-                    "query": f"{stock_name} 减持 处罚 违规 诉讼 利空 风险",
+                    "query": f"{stock_name} {stock_code} 减持 处罚 违规 诉讼 利空 风险",
                     "desc": "风险排查",
                 },
                 {
                     "name": "earnings",
-                    "query": f"{stock_name} 业绩预告 财报 营收 净利润 同比增长",
+                    "query": f"{stock_name} {stock_code} 业绩预告 财报 营收 净利润 同比增长",
                     "desc": "业绩预期",
                 },
                 {
                     "name": "industry",
-                    "query": f"{stock_name} 所在行业 竞争对手 市场份额 行业前景",
+                    "query": f"{stock_name} {stock_code} 所在行业 竞争对手 市场份额 行业前景",
                     "desc": "行业分析",
                 },
             ]
